@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h2 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media a {
+    margin: 0 5px;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.motivation h2, .motivation h3 {
+    margin-bottom: 1rem;
+}
+
+.motivation ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.motivation blockquote {
+    border-left: 2px solid #333;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.success-stories article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation - Physical Therapy Booklet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Physical Therapy Booklet</h1>
+            <nav>
+                <ul>
+                    <li><a href="web.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="exercises.html">Exercises</a></li>
+                    <li><a href="track.html">Track Progress</a></li>
+                    <li><a href="motivation.html">Motivation</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="motivation">
+            <h2>Staying Motivated</h2>
+
+            <h3>Tips for Staying Motivated</h3>
+            <ul>
+                <li><strong>Setting Realistic Goals:</strong> Break down your overall goal into smaller, achievable steps. Celebrate each milestone you reach.</li>
+                <li><strong>Creating a Routine:</strong> Establish a regular exercise schedule and stick to it. Consistency is key to seeing progress.</li>
+                <li><strong>Finding Support:</strong> Engage with family, friends, or a physical therapy group for encouragement and accountability.</li>
+                <li><strong>Celebrating Milestones:</strong> Reward yourself for reaching goals, no matter how small. It keeps you motivated and focused.</li>
+            </ul>
+
+            <h3>Motivational Quotes</h3>
+            <blockquote>
+                <p>"The greatest glory in living lies not in never falling, but in rising every time we fall." – Nelson Mandela</p>
+            </blockquote>
+            <blockquote>
+                <p>"Believe you can and you're halfway there." – Theodore Roosevelt</p>
+            </blockquote>
+            <blockquote>
+                <p>"It does not matter how slowly you go as long as you do not stop." – Confucius</p>
+            </blockquote>
+
+            <h3>Success Stories</h3>
+            <div class="success-stories">
+                <article>
+                    <h4>Jane's Journey</h4>
+                    <p>Jane was recovering from a knee injury and was initially discouraged by the slow progress. With consistent effort and the support of her physical therapist, she regained her mobility and returned to her favorite activities.</p>
+                </article>
+                <article>
+                    <h4>Mark's Recovery</h4>
+                    <p>Mark's dedication to his physical therapy routine after a shoulder surgery paid off. He achieved full range of motion and strength, allowing him to return to his passion for woodworking.</p>
+                </article>
+            </div>
+
+            <a href="resources.html" class="btn">Explore Resources</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Physical Therapy Booklet. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><img src="fb.png" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="tww.png" alt="Twitter"></a>
+                <a href="#" aria-label="Instagram"><img src="ins.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
